@@ -1,0 +1,34 @@
+[
+  {
+    "question": "What are your business hours?",
+    "answer": "We are open Monday through Friday, 9:00 AM to 6:00 PM (UTC+5). On weekends we are closed. For urgent matters, please email support@company.com."
+  },
+  {
+    "question": "How can I reset my password?",
+    "answer": "To reset your password: 1) Go to the login page. 2) Click 'Forgot Password'. 3) Enter your registered email address. 4) Check your inbox for a reset link (valid for 24 hours). 5) Follow the link and set a new password."
+  },
+  {
+    "question": "What payment methods do you accept?",
+    "answer": "We accept Visa, MasterCard, American Express, PayPal, and bank transfers. For enterprise clients, we also support invoicing with NET-30 terms."
+  },
+  {
+    "question": "How do I cancel my subscription?",
+    "answer": "You can cancel your subscription at any time from your account dashboard under Settings > Billing > Cancel Subscription. Your access continues until the end of the billing period. No refunds are issued for partial months."
+  },
+  {
+    "question": "Is there a free trial?",
+    "answer": "Yes! We offer a 14-day free trial with full access to all features. No credit card required. After the trial, choose a plan that fits your needs."
+  },
+  {
+    "question": "How do I contact customer support?",
+    "answer": "You can reach us via: Email: support@company.com | Live chat on our website (business hours) | Phone: +1-800-000-0000 (Mon-Fri 9AM-6PM). Average response time is under 2 hours."
+  },
+  {
+    "question": "Can I export my data?",
+    "answer": "Yes. Go to Settings > Data Management > Export. You can export your data in CSV, JSON, or PDF format. Exports are available for all paid plans."
+  },
+  {
+    "question": "Do you offer discounts for students or non-profits?",
+    "answer": "Yes! We offer a 50% discount for verified educational institutions and a 30% discount for registered non-profit organizations. Contact sales@company.com with proof of status."
+  }
+]
