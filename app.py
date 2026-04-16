@@ -139,9 +139,11 @@ def check_access():
     st.title("Access Required")
     user_pass = st.text_input("Enter app password", type="password")
     if st.button("Login"):
-        if user_pass == app_password:
+        is_user_pass = bool(app_password) and user_pass == app_password
+        is_admin_pass = bool(admin_password) and user_pass == admin_password
+        if is_user_pass or is_admin_pass:
             st.session_state.auth_ok = True
-            st.session_state.is_admin = user_pass == admin_password if admin_password else False
+            st.session_state.is_admin = is_admin_pass
             st.rerun()
         else:
             st.error("Invalid password.")
